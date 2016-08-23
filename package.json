@@ -1,0 +1,12 @@
+{
+  "name": "addone_nan",
+  "version": "0.0.1",
+  "description": "Adds one to a number, uses C++ and nan",
+  "main": "./addone_nan.js",
+  "author": "James Vickers",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.4.0"
+  }
+}
