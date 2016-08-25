@@ -1,3 +1,3 @@
-int addone(int x) {
+double addone(double x) {
   return x + 1;
 }

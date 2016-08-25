@@ -3,5 +3,5 @@
  */
 var addone = require('./build/Release/addone_nan');
 
-var res = addone.addone(1);
+var res = addone.addone(1.1);
 console.log('res', res);

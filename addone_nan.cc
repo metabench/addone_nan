@@ -6,7 +6,7 @@ using v8::FunctionTemplate;
 
 
 NAN_METHOD(addone) {
-  int value = info[0]->IsUndefined() ? 0 : Nan::To<int>(info[0]).FromJust();
+  double value = info[0]->IsUndefined() ? 0 : Nan::To<double>(info[0]).FromJust();
   info.GetReturnValue().Set(Nan::New(addone(value)));
 }
 NAN_MODULE_INIT(InitAll) {
